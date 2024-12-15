@@ -1,1 +1,1 @@
-MySQL port : 3308
+MySQL port : 3306
