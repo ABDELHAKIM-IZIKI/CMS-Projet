@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/post-grid",
+  "version": "0.2.0",
+  "title": "Post Grid",
+  "category": "vayu-blocks",
+  "description": "A custom block to display filtered posts with options for tags and categories.",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "example": {
+    "attributes": {
+      "title": "Hello GutSlider Block"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "textdomain": "vayu-blocks",
+  "viewScriptModule": "file:./view.js"
+}
