@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/icon",
+  "version": "0.2.0",
+  "title": "Icon",
+  "category": "vayu-blocks",
+  "description": "Enhance your designs with 300+ advanced icons featuring dynamic styling for unforgettable visuals.",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "example": {
+    "attributes": {
+      "title": "Hello GutSlider Block"
+    }
+  },
+  "textdomain": "vayu-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScriptModule": "file:./view.js"
+}

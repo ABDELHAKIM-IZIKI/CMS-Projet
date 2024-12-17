@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/advance-timeline",
+  "version": "0.2.0",
+  "title": "Timeline",
+  "category": "vayu-blocks",
+  "description": "Advanced Timeline Blocks enable customizable, interactive timelines with editable headings, dates, descriptions, and media.",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "example": {
+    "attributes": {
+      "title": "Hello GutSlider Block"
+    }
+  },
+  "textdomain": "vayu-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScriptModule": "file:./view.js"
+}
