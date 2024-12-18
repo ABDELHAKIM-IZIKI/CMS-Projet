@@ -3,7 +3,7 @@
  Plugin Name: Hunk Companion
  Plugin URI: https://themehunk.com/hunk-companion/
  Description: Hunk companion plugin is an essential plugin to add features of Front page sections in your site. An easy to use plugin with ThemeHunk WordPress themes.
- Version: 1.9.1
+ Version: 1.9.2
  Author: ThemeHunk
  Text Domain: hunk-companion
  Author URI: https://themehunk.com/
@@ -11,7 +11,7 @@
 
 if (!defined('ABSPATH')) exit;
 // Version constant for easy CSS refreshes
-define('HUNK_COMPANION', '1.9.1');
+define('HUNK_COMPANION', '1.9.2');
 define('HUNK_COMPANION_EXT_FILE', __FILE__ );
 define('HUNK_COMPANION_PLUGIN_DIR_URL', plugin_dir_url(HUNK_COMPANION_EXT_FILE));
 define('HUNK_COMPANION_BASENAME', plugin_basename(HUNK_COMPANION_EXT_FILE));
