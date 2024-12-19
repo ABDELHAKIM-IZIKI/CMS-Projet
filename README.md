@@ -32,8 +32,19 @@
 define('DB_NAME', 'mystore'); // Nom de la base de données
 define('DB_USER', 'root');     // Utilisateur de la base de données
 define('DB_PASSWORD', '');     // Mot de passe (vide par défaut)
-define('DB_HOST', 'localhost'); // Hôte de la base de données
+define('DB_HOST', '127.0.0.1:3306'); // Hôte de la base de données
 define('DB_CHARSET', 'utf8');  // Jeu de caractères
 define('DB_COLLATE', '');
 
 ```
+
+## 5. Accès à la page de connexion
+
+Une fois la configuration terminée, accédez à la page de connexion de WordPress via votre navigateur à l'adresse suivante :
+
+[http://localhost/wp-login.php](http://localhost/wp-login.php)
+
+Utilisez les identifiants suivants pour vous connecter :
+
+- **Utilisateur** : `admin`
+- **Mot de passe** : `admin`
